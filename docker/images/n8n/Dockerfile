@@ -1,4 +1,5 @@
 ARG NODE_VERSION=20.19.0
+ENV npm_config_legacy_peer_deps=true
 ARG N8N_VERSION=snapshot
 ARG LAUNCHER_VERSION=1.4.1
 ARG TARGETPLATFORM
